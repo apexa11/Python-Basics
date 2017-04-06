@@ -31,4 +31,13 @@ def draw_square():
 
 
 
+# for screen background need window screen red
+
+window = turtle.Screen()
+window.bgcolor('red')
+draw_square()
+
+window.exitonclick()
+
+
 			
